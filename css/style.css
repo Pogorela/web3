@@ -1,164 +1,128 @@
 :root{
     font-size: 62.5%;
     font-family:'Roboto',sans-serif;
-    text-align: center;
-    --first-color: white;
-    --second-color: rgb(221, 221, 221);
-    --third-color: rgb(51, 51, 51);
-    --fourth-color: rgb(76, 88, 102);
-}
-.back-white{
-    background-color: var(--first-color);
-}
+    text-align: left;
+    --color1:#EBEBEB;
+    --color2:#666;
+    --color3:#85859B;
+    --color4:#7875fe;
+    --color5:#4C5866;
+    --color6:#B5B5BD;
+    --color7:#C4C4C4;
+    --color8:white;
 
-.fs30px{
-    font-size: 30px;
-}
-.fs14px{
-    font-size: 14px;
-}
-.fs16px{
-    font-size: 16px;
-}
-.fs18px{
-    font-size:18px;
-}
-.fs24px{
-    font-size:24px;
 }
 .header{
-    font-size: 2em;
-}
-.tx-decoration{
-    text-decoration: none;
+    font-size: 2rem;
 }
 .clr1{
     color:var(--fourth-color);
 }
 .clr-button1{
-    color:rgba(120, 117, 254, 1);
-    background-color: var(--first-color);
-    border-color: rgba(120, 117, 254, 1);
+    color:var(--color4);
+    background-color: var(--color8);
+    border-color: var(--color4);
 }
 .clr2{
-    background-color: #EBEBEB;
+    background-color:var(--color1);
 }
+
 .version{
-    font-size: 16px;
-    font-weight: 500;
-    color: #666;
+    font-size: 1.6rem;
+    color: var(--color2);
 }
 .versionp{
-    color: #85859B;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    font-style: normal;
+    color: var(--color3);
+    font-size: 1.6rem;
+    line-height: 2.1rem;
 }
 .section1h2{
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .section1p1{
-    font-size: 30px;
+    font-size: 3rem;
+    color: var(--color5);
+    line-height: 3rem;
     font-weight: 400;
-    color: #4C5866;
-    font-size: normal;
-    line-height: 100%;
 }
 .section1p2{
-    font-size: 14px;
+    font-size: 1.4rem;
+    color: var(--color3);
+    line-height: 2.1rem;
     font-weight: 400;
-    color: #85859B;
-    font-size: normal;
-    line-height: 150%;
 }
 .border{
-    border: 1px solid #7875FE;
+    border: 0.1rem solid var(--color4);
 }
 .button-catalog{
-    font-size: 18px;
-    font-style: normal;
-    color: #7875FE;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 1.8rem;
+    color: var(--color4);
     text-decoration: none;
 }
 .section3h2{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
-    color: #666;
-    font-size: normal;
-    line-height: 100%;
+    color: var(--color2);
+    line-height: 3rem;
 }
 .section3p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #85859B;
-    font-size: normal;
+    font-size: 1.6rem;
+    color: var(--color3);
     line-height: 170%;
 }
 .section4h3{
-    font-size: 24px;
-    font-weight: 400;
-    color: #666;
-    font-size: normal;
-    line-height: 170%;
+    font-size: 2.4rem;
+    color: var(--color2);
+    line-height: 10%;
 }
 .section4p1{
-    font-size: 14px;
-    font-weight: 400;
-    color: #B5B5BD;
-    font-size: normal;
-    line-height: normal;
+    font-size: 1.4rem;
+    color: var(--color6);
+    line-height: 50%;
 }
 .section4p2{
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 170%;
-    color: #85859B;
+    color: var(--color3);
 }
 .section4a{
-    color: #7875FE;
-    font-size: 20px;
-    font-style: normal;
+    color: var(--color4);
+    font-size: 2rem;
     font-weight: 400;
-    line-height: normal;
+    line-height: 180%;
     text-decoration: none;
 }
 .border_for_company{
-    border: 1px solid #C4C4C4;
+    border: 0.1rem solid var(--color7);
 }
 .section6h3{
-    color: #666;
-    font-size: 24px;
-    font-style: normal;
+    color: var(--color2);
+    font-size: 2.4rem;
     font-weight: 400;
     line-height: 100%;
 }
 .section6p{
-    color: #85859B;
-    font-size: 16px;
-    font-style: normal;
+    color: var(--color3);
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 170%;
 }
 .section7{
-    background-color: #4C5866;
+    background-color: var(--color5);
 }
 .section7p1{
-    color: #FFF;
+    color: var(--color8);
     font-family: 'Ubuntu';
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 300;
-    line-height: normal;
+    line-height: 100%;
 }
 .footer{
-    color: #4C5866;
-    font-size: 14px;
-    font-style: normal;
+    color: var(--color5);
+    font-size: 1.4rem;
+    text-align: center;
     font-weight: 400;
-    line-height: normal;
+    line-height: 100%;
     text-transform: uppercase;
 }
