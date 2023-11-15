@@ -1,7 +1,7 @@
 :root{
     font-size: 62.5%;
     font-family:'Roboto',sans-serif;
-    text-align: left;
+    box-sizing: border-box;
     --color1:#EBEBEB;
     --color2:#666;
     --color3:#85859B;
@@ -14,6 +14,38 @@
 }
 .header{
     font-size: 2rem;
+    text-align: center;
+    margin-top: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.header-h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-section-2{
+    margin-top: 2.7rem;
+    
+}
+.header-section2-button1{
+    margin-right: 18.2rem;
+    border: 0;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+}
+.header-section2-button2{
+    margin-right: 3rem;
+    border: 0;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+}
+.header-section2-button3{
+    border: 0;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
 }
 .clr1{
     color:var(--fourth-color);
@@ -26,7 +58,6 @@
 .clr2{
     background-color:var(--color1);
 }
-
 .version{
     font-size: 1.6rem;
     color: var(--color2);
@@ -36,6 +67,7 @@
     font-size: 1.6rem;
     line-height: 2.1rem;
 }
+
 .section1h2{
     font-size: 1.6rem;
 }
@@ -100,7 +132,6 @@
     color: var(--color2);
     font-size: 2.4rem;
     font-weight: 400;
-    line-height: 100%;
 }
 .section6p{
     color: var(--color3);
@@ -113,7 +144,7 @@
 }
 .section7p1{
     color: var(--color8);
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu',sans-serif;
     font-size: 2rem;
     font-weight: 300;
     line-height: 100%;
