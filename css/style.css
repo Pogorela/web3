@@ -30,7 +30,6 @@ html, body {
     margin-top: 2.7rem;
 }
 .header-section2-button1{
-    
     margin-left: 1.5rem;
     border: 0;
     padding: 0;
@@ -38,7 +37,7 @@ html, body {
     height: 3rem;
 }
 .header-section2-button2{
-    margin: 0 0 0 56.3%;
+    margin: 0 10% 0 50%;
     border: 0;
     padding: 0;
     width: 3rem;
@@ -46,7 +45,7 @@ html, body {
 }
 .header-section2-button3{
     
-    margin: 0 1.5rem 0 6%;
+    margin: 0 2% 0 0;
     border: 0;
     padding: 0;
     width: 3rem;
@@ -345,9 +344,9 @@ html, body {
 }
 .navigator_a_style{
     color: var(--color4);
-    font-size: 2rem;
+    font-size: 110%;
     font-weight: 400;
-    line-height: 180%;
+    line-height: 100%;
     text-decoration: none;
 }
 .navigator{
@@ -357,6 +356,7 @@ html, body {
     justify-content: space-around;
     height: 100%;
     list-style-type: none;
+    padding-left: 25%;
 }
 .footer-img2{
     margin:4.1rem 3rem 2rem 0;
