@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/modern-normalize.css"/>
     <link rel="stylesheet" href="css/style.css">
     
@@ -15,20 +16,42 @@
 </head>
     <body>
         <header class="header">
-            <img src="images/simple.svg" alt="simple">
-            <p></p>
-            <div class="header-section-2">
-            <button class = "header-section2-button1"><img src="images/List.svg" alt="Еще"></button><button class = "header-section2-button2"><img src="images/search.svg" alt="Поиск"></button><button class = "header-section2-button3"><img src="images/log-in.svg" alt="Выход"></button>
+            <div class="nav">
+                <img src="images/simple.svg" alt="simple" class="simple-img">
+                <div class="header-section-2">
+                    <button class = "header-section2-button1">
+                        <img src="images/List.svg" alt="Еще">
+                    </button>
+                    <div class="nav-a">
+                        <a href="" class="a-nav">Продукция</a>
+                        <a href="" class="a-nav">Материалы</a>
+                        <a href="" class="a-nav">О нас</a>
+                        <a href="" class="a-nav">Контакты</a>
+                    </div>
+                    <div class="header-button">
+                        <button class = "header-section2-button2">
+                            <img src="images/search.svg" alt="Поиск">
+                        </button>
+                        <button class = "header-section2-button3">
+                            <img src="images/log-in.svg" alt="Выход">
+                        </button>
+                    </div>
+                </div>
             </div>
         </header>
     <main>
         <div class = "main-div1">
-            <h2 class="section1h2">Простые вещи. из бумаги</h2>
-            <p class="section1p2">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
-            <button class="button-catalog">Каталог</button>
+            <div class="main-div-div">
+                <h2 class="section1h2">Простые вещи. из бумаги</h2>
+                <p class="section1p2">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
+                <button class="button-catalog">Каталог</button>
+            </div>
+            <div class="div1-img">
+                <img src="images/Layer%202%20copy.png" alt="" width="540px" height = "560px" style="object-fit: cover;object-position: bottom;"> 
+            </div>
         </div>
         <div class = "clr2 main-div2">
-            <div>
+            <div class="result1">
                 <div class="result">
                     <div>
                         <img class="paper" src="images/Buissnes%20Cards%20v1.png" alt="v1" />
@@ -57,18 +80,19 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <section class="section3 sectionback">
+        
+            <div class="section3 sectionback1">
             <div class = "section3img">
-            <img src="images/Folder%20v8%20Open%201.png" alt="">
+                <img src="images/Folder%20v8%20Open%201.png" alt="">
             </div>
             <h2 class = "section3h2">Максимальная белизна</h2>
             <div class="section3divel">
                 <p class = "section3p">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.</p>
                 <p class = "section3p">Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
             </div>
-        </section>
-        <section>
+            </div>
+        </div>
+        <div class="grid-main">
             <div class="section4-div1">
                 <div class="sectionback">
                     <img src="images/Group%20206.png" alt="Картинка 1-ого товара" >
@@ -82,7 +106,7 @@
                     </svg> </a> 
                 </div>    
             </div>
-            <div class="section4-divok">
+            <div class="section4-div1">
                 <div class="sectionback">
                     <img src="images/Paper%20Bag%20v9.png" alt="Картинка 2-ого товара">
                 </div>
@@ -95,7 +119,7 @@
                     </svg> </a> 
                 </div>   
             </div>
-            <div class="section4-divok">
+            <div class="section4-div1">
                 <div class="sectionback">
                     <img src="images/Briefcase%20v1%201.png" alt="Картинка 3-ого товара">
                 </div>
@@ -108,7 +132,7 @@
                     </svg> </a> 
                 </div>  
             </div>
-            <div class="section4-divend">
+            <div class="section4-div1">
                 <div class="sectionback">
                     <img src="images/Group%20209.png" alt="Картинка 4-ого товара">
                 </div>
@@ -121,9 +145,8 @@
                     </svg> </a> 
                 </div>  
             </div> 
-        </section>
-        <section class="sectionback">
-            
+        </div>
+        <section class="sectionback5">
             <div class="section5divglav">
                 <div class="section4div2">
                 <img src="images/hahnemuehle-logo-vector%201.svg" alt="1" class = "section4divpadding1 border_for_company">
@@ -148,17 +171,38 @@
             </div>
         </section>
     </main>
-    <footer class="footer_1">
-        <div class="footer-div">
-        <img src="images/Frame%2085.svg" alt="simple">
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-grid1">
+                <img src="images/Frame%2085.svg" alt="simple">
+            </div>
+            <div class = "footer-grid2">
+                <a href="grid.html" class="footer_grid_a">GRID</a>
+            </div>
+            <div class="footer-grid3">
+                <div class = "social1">
+                    <a href="">
+                        <img src="images/Facebook.svg" alt="Иконка Facebook" class="">
+                    </a>
+                </div>
+                <div class = "social2">
+                    <a href="">
+                        <img src="images/Twitter.svg" alt="Иконка Twitter" class="">
+                    </a>
+                </div>
+                <div class = "social3">
+                    <a href="">
+                        <img src="images/Meta.svg" alt="Иконка Instagram" class="">
+                    </a>
+                </div>
+                <div class = "social4">
+                    <a href="">
+                        <img src="images/Youtube.svg" alt="Иконка Youtube" class="">
+                    </a>
+                </div>
+            </div>    
         </div>
-        <div class = "footer_grid">
-            <a href="grid.html" class="footer_grid_a">GRID</a>
-        </div>
-        <div class="footer-div1">
-        <a href=""><img src="images/Facebook.svg" alt="Иконка Facebook" class="footer-img1"></a><a href=""><img src="images/Twitter.svg" alt="Иконка Twitter" class="footer-img2"></a><a href=""><img src="images/Meta.svg" alt="Иконка Instagram" class="footer-img2"></a><a href=""><img src="images/Youtube.svg" alt="Иконка Youtube" class="footer-img3"></a>
-        </div>    
-        <p class = "footer">Simple 2021</p>
+        <p class = "footer">Simple 2021</p>   
     </footer>
     </body>
 </html>
